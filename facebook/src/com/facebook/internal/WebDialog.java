@@ -301,6 +301,8 @@ public class WebDialog extends Dialog {
                 getScaledSize(height, metrics.density, NO_PADDING_SCREEN_HEIGHT, MAX_PADDING_SCREEN_HEIGHT),
                 metrics.heightPixels);
 
+        dialogHeight -= 64; // TODO:REG Adjust for original Kindle Fire
+        
         getWindow().setLayout(dialogWidth, dialogHeight);
     }
 
