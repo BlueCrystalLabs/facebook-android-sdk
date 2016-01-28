@@ -50,6 +50,8 @@ build
 .arc/
 out/
 facebook/doc/
+facebook/tests/build.xml
 facebook/tests/lint.xml
+facebook/tests/project.properties
 facebook/tests/assets/config.json
 gradle-app.setting
